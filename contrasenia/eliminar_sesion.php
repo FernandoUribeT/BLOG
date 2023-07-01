@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset(
+    $_SESSION["email"],
+    $_SESSION["time"],
+    $_SESSION["invalid"],
+    $_SESSION["token"],
+    $_SESSION["end_time"]
+);
+?>
